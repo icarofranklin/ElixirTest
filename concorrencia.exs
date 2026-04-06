@@ -43,7 +43,7 @@ IO.puts("[Principal] Mensagem enviada! Aguardando resposta...\n")
 # 4. O processo principal agora fica aguardando a resposta do carteiro
 receive do
     {:ok, resposta} ->
-        IO.puts("[Principal] Recebi a confirmação: #{resposta})
+        IO.puts("[Principal] Recebi a confirmação: #{resposta}")
 after
     # Se o carteiro demorar mais de 3 segundos, o processo principal desiste
   3000 -> 
